@@ -1,0 +1,27 @@
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Clock ka main box */
+.Clock-card {
+    background: #1e1e1e;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.3); /* Glow effect */
+    border: 2px solid #333;
+    text-align: center;
+}
+
+/* Time ka style */
+#display {
+    font-size: 70px;
+    color: #00d4ff; /* Neon Blue color */
+    text-shadow: 0 0 15px #00d4ff; /* Neon glow */
+    font-weight: bold;
+    letter-spacing: 5px;
+}
