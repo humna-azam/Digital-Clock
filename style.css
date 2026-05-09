@@ -7,7 +7,7 @@ body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-/* Clock ka main box */
+/* Clock main box */
 .Clock-card {
     background: #1e1e1e;
     padding: 30px 60px;
@@ -17,11 +17,23 @@ body{
     text-align: center;
 }
 
-/* Time ka style */
+/* Time style */
 #display {
     font-size: 70px;
     color: #00d4ff; /* Neon Blue color */
     text-shadow: 0 0 15px #00d4ff; /* Neon glow */
     font-weight: bold;
     letter-spacing: 5px;
+}
+@media (max-width: 600px) {
+    #display {
+        font-size: 45px; /* Phone par font size chota kar diya */
+        letter-spacing: 2px;
+    }
+
+    .Clock-card {
+        padding: 20px 30px; /* Padding less */
+        width: 80%; /* Width set to screen */
+        border-radius: 10px;
+    }
 }
